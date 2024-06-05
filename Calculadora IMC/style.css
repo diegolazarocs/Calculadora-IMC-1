@@ -15,7 +15,7 @@ main {
 .conteiner {
   display: flex;
   flex-direction: column;
-  background: rgb(255, 198, 0);
+  background: rgb(184, 202, 245);
   width: 400px;
   height: 600px;
   align-items: center;
@@ -55,11 +55,12 @@ button {
   width: 300px;
   height: 40px;
   font: bold 1.2rem serif;
-  background: black;
-  color: rgb(255, 198, 0);
+  background: rgb(25, 37, 162);
+  color: #ccc;
   outline: none;
   border-radius: 5px;
   cursor: pointer;
+  border: none;
 }
 .result {
   display: flex;
@@ -76,3 +77,4 @@ button {
   box-sizing: border-box;
   user-select: none;
 }
+
